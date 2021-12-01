@@ -17,4 +17,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_pdx213.mk
+     $(LOCAL_DIR)/twrp_pdx213.mk
+
+COMMON_LUNCH_CHOICES := \
+     twrp_pdx213-userdebug \
+     twrp_pdx213-eng

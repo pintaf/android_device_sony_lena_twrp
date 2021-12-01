@@ -25,14 +25,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from pdx213 device
 $(call inherit-product, device/sony/pdx213/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pdx213
-PRODUCT_NAME := omni_pdx213
+PRODUCT_NAME := twrp_pdx213
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Sony
+PRODUCT_MODEL := 10 III
 PRODUCT_MANUFACTURER := sony
 PRODUCT_RELEASE_NAME := Sony Sony
